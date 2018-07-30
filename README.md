@@ -1,11 +1,11 @@
 # godep.vim
 use golang's dep from vim.
 
-Very basic support for Go's (dep)[https://github.com/golang/dep]
+Very basic support for Go's [dep](https://github.com/golang/dep)
 
 ## Installation:
 
-With vim-plug (https://github.com/junegunn/vim-plug):
+With [vim-plug](https://github.com/junegunn/vim-plug):
 
 ```
 call plug#begin()
