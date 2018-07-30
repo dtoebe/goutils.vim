@@ -1,0 +1,35 @@
+*godep.txt* use golangs dep from vim
+
+Author: dtoebe
+License: MIT
+URL: https://github.com/dtoebe/godep.vim
+
+===============================================================
+CONTENTS                                            *godep.vim*
+
+        1. Installation..............| godep.vim-installation |
+        2. Usage............................| godep.vim-usage |
+
+===============================================================
+
+1. Installation                        *godep.vim-installation*
+
+With vim-plug (https://github.com/junegunn/vim-plug):
+
+        call plug#begin()
+        ...
+        Plugin 'dtoebe/godep.vim'
+        ...
+        call plug#end()
+
+================================================================
+
+2. Usage                                       *godep.vim-usage*
+
+Commands:
+
+        :DepEnsure
+          runs dep ensure -v
+
+        :DepInit
+          runs dep init
