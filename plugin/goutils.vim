@@ -16,7 +16,7 @@ endfunction
 
 " Run go get that will check for updates and inverbose modes {{{
 function s:GoGet(pkg)
-    :silent !go get -u -v a:pkg
+    execute "silent !go get -u -v " . a:pkg
 endfunction
 " }}}
 

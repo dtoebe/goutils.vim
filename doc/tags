@@ -1,0 +1,4 @@
+godep.vim	goutils.txt	/*godep.vim*
+goutils.txt	goutils.txt	/*goutils.txt*
+goutils.vim-installation	goutils.txt	/*goutils.vim-installation*
+goutils.vim-usage	goutils.txt	/*goutils.vim-usage*
