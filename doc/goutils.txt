@@ -1,32 +1,32 @@
-*godep.txt* use golangs dep from vim
+*goutils.txt* just a collection shortcuts for wotrking with Go
 
 Author: dtoebe
 License: MIT
-URL: https://github.com/dtoebe/godep.vim
+URL: https://github.com/dtoebe/goutils.vim
 
 ===============================================================
 CONTENTS                                            *godep.vim*
 
-        1. Installation..............| godep.vim-installation |
+        1. Installation............| goutils.vim-installation |
         2. Usage............................| godep.vim-usage |
 
 ===============================================================
 
-1. Installation                        *godep.vim-installation*
+1. Installation                      *goutils.vim-installation*
 
 With vim-plug (https://github.com/junegunn/vim-plug):
 
         call plug#begin()
         ...
-        Plugin 'dtoebe/godep.vim'
+        Plugin 'dtoebe/goutils.vim'
         ...
         call plug#end()
 
 ================================================================
 
-2. Usage                                       *godep.vim-usage*
+2. Usage                                       *goutils.vim-usage*
 
-Commands:
+Commands: For using Go dep
 
         :DepEnsure
           runs dep ensure -v
