@@ -26,10 +26,16 @@ With vim-plug (https://github.com/junegunn/vim-plug):
 
 2. Usage                                       *goutils.vim-usage*
 
-Commands: For using Go dep
+Commands:
+    For using Go dep
 
         :DepEnsure
           runs dep ensure -v
 
         :DepInit
           runs dep init
+
+    For using Go Get
+
+        :GoGet
+            runs go get -u -v pkg/name
