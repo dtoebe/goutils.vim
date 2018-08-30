@@ -1,5 +1,6 @@
-# godep.vim
-use golang's dep from vim.
+# goutils.vim
+
+Just a collecction of shortcuts for using Go
 
 Very basic support for Go's [dep](https://github.com/golang/dep)
 
@@ -25,3 +26,6 @@ call plug#end()
 
    :DepInit
      runs dep init
+
+   :GoGet pkg/name
+      runs go get -u -v pkg/name
